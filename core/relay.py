@@ -44,5 +44,6 @@ class Relay():
     def on(self, value):
         return self.turn("on", value)
 
+
     def off(self, value):
         return self.turn("off", value)
